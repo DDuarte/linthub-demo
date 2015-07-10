@@ -1,5 +1,6 @@
-cpplint:
+cpp:
   lint: true
+  src: ./src/
   include: ["*.cpp", "*.h", "*.hpp", "*.c"]
   filters:
     - build/include_what_you_use
