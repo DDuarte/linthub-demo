@@ -1,7 +1,6 @@
 cpplint:
   lint: true
   include: ["*.cpp", "*.h", "*.hpp", "*.c"]
-  path: ./src/
   filters:
     - build/include_what_you_use
     - whitespace/newline
